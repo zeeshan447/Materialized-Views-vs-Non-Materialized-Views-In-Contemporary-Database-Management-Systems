@@ -19,3 +19,4 @@ step 6: Create a database in the database management system and create tales. Th
 ![](screenshots/step6.png)
 
 step 7: After loading data in the dbms just run the python code and select the respective database management system
+![](screenshots/step10.png)
