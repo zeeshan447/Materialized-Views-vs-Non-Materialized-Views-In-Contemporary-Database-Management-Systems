@@ -1,0 +1,26 @@
+insert into catalog_returns select * from crv;
+insert into catalog_returns select * from ncrv;
+insert into catalog_sales select * from csv
+insert into catalog_sales select * from ncsv 
+insert into item select * from itemv 
+insert into item select * from nitemv 
+select count(*) from promv s,promotion d where s.P_PROMO_IDd.P_PROMO_ID; 
+select count(*) from npromv s,promotion d where s.P_PROMO_IDd.P_PROMO_ID; 
+insert into call_center select * from ccv; 
+insert into call_center select * from nccv; 
+insert into store_returns select * from srv 
+insert into store_returns select * from nsrv 
+insert into store_sales select * from ssv 
+insert into store_sales select * from nssv 
+insert into store select * from storv 
+insert into store select * from nstorv 
+insert into web_site select * from websv 
+insert into web_site select * from nwebsv 
+insert into web_page select * from webv 
+insert into web_page select * from nwebv
+select count(*) from wrhsv; 
+select count(*) from nwrhsv; 
+insert into web_returns select * from wrv 
+insert into web_returns select * from nwrv
+insert into web_sales select * from wsv 
+insert into web_sales select * from wsv
